@@ -74,3 +74,7 @@ Or you want to create a navigation bar item, containing the profile picture and 
 ## Author(s)
 
 Lars Wolters - *Initial work*
+
+## Thanks to
+
+**Argon Design** by [Creative Tim](https://www.creative-tim.com/product/argon-design-system)
