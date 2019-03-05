@@ -1,0 +1,3 @@
+$clientID  = 'FILL IN YOUR CLIENT ID HERE';
+$clientSecret = 'FILL IN YOUR CLIENT SECRET HERE';
+$redirectURL = 'http://localhost/YOUR_APP_NAME/'; // Redirects to index.php

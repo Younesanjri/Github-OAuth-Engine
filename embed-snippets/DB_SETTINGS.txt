@@ -1,0 +1,5 @@
+private $databaseHost = "localhost";
+private $databaseUsername = "root";
+private $databasePassword = "";
+private $databaseName = "github";
+private $userTable = 'users';
