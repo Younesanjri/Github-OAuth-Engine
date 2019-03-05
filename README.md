@@ -53,6 +53,24 @@ Let's say you want to display the username of the user that is signed in with Gi
 <p><?php $userData['FULL_NAME']?>
 ```
 
+Or you want to create a navigation bar item, containing the profile picture and name and a dropdown menu (with, let's say, a Sign out option):
+
+```php
+<li class="nav-item dropdown">
+  <a href="" class="nav-link" data-toggle="dropdown" role="button">
+    <img class="user-profile-picture" src="'.$userData['IMAGE'].'">
+    <span class="nav-link-inner--text">'.$userData['FULL_NAME'].'</span>
+  </a>
+  <div class="dropdown-menu profile-menu">
+    <a href="" class="dropdown-item">Profile</a>
+    <a href="" class="dropdown-item">Downloads</a>
+    <a href="" class="dropdown-item">Settings</a>
+    <a href="php/'.$SIGN_OUT_URL.'" class="dropdown-item">Sign Out</a>
+  </div>
+</li>
+```
+
+
 ## Author(s)
 
 Lars Wolters - *Initial work*
