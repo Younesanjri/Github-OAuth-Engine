@@ -24,6 +24,29 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 ```
 
+### Step 2
+**Database configuration** - Update the database variables listed in *userEntity.php*:
+
+```php
+private $databaseHost = "localhost";
+private $databaseUsername = "root";
+private $databasePassword = "";
+private $databaseName = "github";
+private $userTable = 'users';
+```
+
+### Step 3
+**Client configuration** - Update the OAuth variables listed in *appConfig.php*:
+
+```php
+$clientID  = 'FILL IN YOUR CLIENT ID HERE';
+$clientSecret = 'FILL IN YOUR CLIENT SECRET HERE';
+$redirectURL = 'http://localhost/YOUR_APP_NAME/'; // Redirects to index.php
+```
+
+### Step 4
+**You are ready** - Now that you have configured all required settings, you are good to go! You can test it out by going to your OAuth website and signing in to your application.
+
 ## Author(s)
 
 Lars Wolters - *Initial work*
