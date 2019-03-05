@@ -1,5 +1,4 @@
-# Github OAuth Engine [![License: IPL 1.0] [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+# Github OAuth Engine [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 A simple website template with a built-in GitHub authentication log-in system.
 
 ## Setting up
