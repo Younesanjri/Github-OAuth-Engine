@@ -77,5 +77,6 @@ Lars Wolters - *Initial work*
 
 ## Thanks to
 
-**Argon Design** by [Creative Tim](https://www.creative-tim.com/product/argon-design-system)
+[Argon Design by Creative Tim](https://www.creative-tim.com/product/argon-design-system)
+
 [Font Awesome](https://fontawesome.com/)
