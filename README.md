@@ -46,6 +46,13 @@ $redirectURL = 'http://localhost/YOUR_APP_NAME/'; // Redirects to index.php
 ### Step 4
 **You are ready** - Now that you have configured all required settings, you are good to go! You can test it out by going to your OAuth website and signing in to your application.
 
+## Usage
+
+Let's say you want to display the username of the user that is signed in with GitHub, inside of a paragraph:
+```php
+<p><?php $userData['FULL_NAME']?>
+```
+
 ## Author(s)
 
 Lars Wolters - *Initial work*
